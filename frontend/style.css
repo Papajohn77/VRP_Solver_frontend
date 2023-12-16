@@ -1,0 +1,71 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  color: white;
+  background-color: black;
+}
+
+.component {
+  height: 100%;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.component-title h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.vehicle-table {
+  max-height: 210px;
+  overflow-y: auto;
+}
+
+.create-vehicle-btn {
+  margin-top: 30px;
+}
+
+.customer-table {
+  max-height: 650px;
+  overflow-y: auto;
+}
+
+.create-customer-btn {
+  margin-top: 35px;
+}
+
+#map1,
+#map2 {
+  height: 400px;
+}
+
+#pac-input-1,
+#pac-input-2 {
+  width: 275px;
+  font-size: 15px;
+  font-family: Roboto;
+  margin: 5px;
+  padding: 0 5px 0 5px;
+  text-overflow: ellipsis;
+  background-color: white;
+}
+
+.total-distance,
+.route-container {
+  font-size: 25px;
+}
+
+.attribution {
+  color: white;
+  text-decoration: none;
+}
+
+.attribution:hover {
+  color: rgb(200, 200, 200);
+}
